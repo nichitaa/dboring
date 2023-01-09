@@ -67,6 +67,7 @@ services:
 
   # Postgres instance (for Main API)
   postgres_image:
+    container_name: main_api_postgres
     image: postgres:latest
     ports:
       - "5432"
